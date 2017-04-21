@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>
+    Add Site
+</h1>
+
+<form role="form" method="POST">
+    <div class="form-group">
+        <label for="url">URL</label>
+        <input type="text" class="form-control" id="url" name="url" placeholder="Site URL" required>
+    </div>
+    <div class="form-group">
+        <label for="date_added">Date Added</label>
+        <input type="text" class="form-control" id="date_added" name="date_added" placeholder="Date Added" required>
+    </div>
+    <div class="form-group">
+        <label for="web_host">Web Host</label>
+        <input type="text" class="form-control" id="web_host" name="web_host" placeholder="Web Host" required>
+    </div>
+    <div class="form-group">
+        <label for="host_login">Host URL</label>
+        <input type="text" class="form-control" id="host_login" name="host_login" placeholder="Host URL" required>
+    </div>
+    <div class="form-group">
+        <label for="username">User Name</label>
+        <input type="text" class="form-control" id="username" name="username" placeholder="User Name" required>
+    </div>
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="text" class="form-control" id="password" name="password" placeholder="Password" required>
+    </div>
+    <div class="form-group">
+        <label for="city">City</label>
+        <input type="text" class="form-control" id="city" name="city" placeholder="City" required>
+    </div>
+    <div class="form-group">
+        <label for="niche">Niche</label>
+        <input type="text" class="form-control" id="niche" name="niche" placeholder="Niche" required>
+    </div>
+    <div class="form-group">
+        <label for="forwarding_email">Forwarding Email</label>
+        <input type="text" class="form-control" id="forwarding_email" name="forwarding_email" placeholder="Forwarding Email" required>
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+</form>
+{% endblock %}

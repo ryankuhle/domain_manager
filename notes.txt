@@ -13,6 +13,5 @@ city TEXT
 niche TEXT
 forwarding_email TEXT
 
-Steps:
-create database
-menu that asks user what they want to do (create entry, view single entry, view all entries, delete entry)
+# KNOWN BUGS
+1) Entering a string-based character into the main menu will throw an error instead of sending user to the menu again. Need proper error checking. This could be a function that all user input is sent through to make sure it follows XYZ commands. 1 of the parameters of the function could be what kind of input is expected. For example, if the program is expecting a string, string can be 1 of the parameters so that the error checking function knows to check for a string.
