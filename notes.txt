@@ -1,0 +1,18 @@
+Main Goal:
+convert current spreadsheet system into database system, allowing users to login to get information as needed
+
+Needed Data from Spreadsheet:
+id INTEGER
+date_added TEXT
+url TEXT
+web_host TEXT
+host_login TEXT
+username TEXT
+password TEXT
+city TEXT
+niche TEXT
+forwarding_email TEXT
+
+Steps:
+create database
+menu that asks user what they want to do (create entry, view single entry, view all entries, delete entry)
